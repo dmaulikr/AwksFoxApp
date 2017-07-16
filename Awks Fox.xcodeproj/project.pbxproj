@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E030D2F91F1BF14D00E84F29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E030D2F81F1BF14D00E84F29 /* AppDelegate.swift */; };
+		E030D2FB1F1BF14D00E84F29 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E030D2FA1F1BF14D00E84F29 /* GameScene.sks */; };
+		E030D2FD1F1BF14D00E84F29 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E030D2FC1F1BF14D00E84F29 /* Actions.sks */; };
+		E030D2FF1F1BF14D00E84F29 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E030D2FE1F1BF14D00E84F29 /* GameScene.swift */; };
+		E030D3011F1BF14D00E84F29 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E030D3001F1BF14D00E84F29 /* GameViewController.swift */; };
+		E030D3041F1BF14D00E84F29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E030D3021F1BF14D00E84F29 /* Main.storyboard */; };
+		E030D3061F1BF14D00E84F29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E030D3051F1BF14D00E84F29 /* Assets.xcassets */; };
+		E030D3091F1BF14D00E84F29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E030D3071F1BF14D00E84F29 /* LaunchScreen.storyboard */; };
+		E030D3141F1BF14D00E84F29 /* Awks_FoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E030D3131F1BF14D00E84F29 /* Awks_FoxTests.swift */; };
+		E030D31F1F1BF14D00E84F29 /* Awks_FoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E030D31E1F1BF14D00E84F29 /* Awks_FoxUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E030D3101F1BF14D00E84F29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E030D2ED1F1BF14D00E84F29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E030D2F41F1BF14D00E84F29;
+			remoteInfo = "Awks Fox";
+		};
+		E030D31B1F1BF14D00E84F29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E030D2ED1F1BF14D00E84F29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E030D2F41F1BF14D00E84F29;
+			remoteInfo = "Awks Fox";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E030D2F51F1BF14D00E84F29 /* Awks Fox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Awks Fox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E030D2F81F1BF14D00E84F29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E030D2FA1F1BF14D00E84F29 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		E030D2FC1F1BF14D00E84F29 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		E030D2FE1F1BF14D00E84F29 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E030D3001F1BF14D00E84F29 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E030D3031F1BF14D00E84F29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E030D3051F1BF14D00E84F29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E030D3081F1BF14D00E84F29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E030D30A1F1BF14D00E84F29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E030D30F1F1BF14D00E84F29 /* Awks FoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Awks FoxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E030D3131F1BF14D00E84F29 /* Awks_FoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Awks_FoxTests.swift; sourceTree = "<group>"; };
+		E030D3151F1BF14D00E84F29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E030D31A1F1BF14D00E84F29 /* Awks FoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Awks FoxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E030D31E1F1BF14D00E84F29 /* Awks_FoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Awks_FoxUITests.swift; sourceTree = "<group>"; };
+		E030D3201F1BF14D00E84F29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E030D2F21F1BF14D00E84F29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E030D30C1F1BF14D00E84F29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E030D3171F1BF14D00E84F29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E030D2EC1F1BF14D00E84F29 = {
+			isa = PBXGroup;
+			children = (
+				E030D2F71F1BF14D00E84F29 /* Awks Fox */,
+				E030D3121F1BF14D00E84F29 /* Awks FoxTests */,
+				E030D31D1F1BF14D00E84F29 /* Awks FoxUITests */,
+				E030D2F61F1BF14D00E84F29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E030D2F61F1BF14D00E84F29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E030D2F51F1BF14D00E84F29 /* Awks Fox.app */,
+				E030D30F1F1BF14D00E84F29 /* Awks FoxTests.xctest */,
+				E030D31A1F1BF14D00E84F29 /* Awks FoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E030D2F71F1BF14D00E84F29 /* Awks Fox */ = {
+			isa = PBXGroup;
+			children = (
+				E030D2F81F1BF14D00E84F29 /* AppDelegate.swift */,
+				E030D2FA1F1BF14D00E84F29 /* GameScene.sks */,
+				E030D2FC1F1BF14D00E84F29 /* Actions.sks */,
+				E030D2FE1F1BF14D00E84F29 /* GameScene.swift */,
+				E030D3001F1BF14D00E84F29 /* GameViewController.swift */,
+				E030D3021F1BF14D00E84F29 /* Main.storyboard */,
+				E030D3051F1BF14D00E84F29 /* Assets.xcassets */,
+				E030D3071F1BF14D00E84F29 /* LaunchScreen.storyboard */,
+				E030D30A1F1BF14D00E84F29 /* Info.plist */,
+			);
+			path = "Awks Fox";
+			sourceTree = "<group>";
+		};
+		E030D3121F1BF14D00E84F29 /* Awks FoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				E030D3131F1BF14D00E84F29 /* Awks_FoxTests.swift */,
+				E030D3151F1BF14D00E84F29 /* Info.plist */,
+			);
+			path = "Awks FoxTests";
+			sourceTree = "<group>";
+		};
+		E030D31D1F1BF14D00E84F29 /* Awks FoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E030D31E1F1BF14D00E84F29 /* Awks_FoxUITests.swift */,
+				E030D3201F1BF14D00E84F29 /* Info.plist */,
+			);
+			path = "Awks FoxUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E030D2F41F1BF14D00E84F29 /* Awks Fox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E030D3231F1BF14D00E84F29 /* Build configuration list for PBXNativeTarget "Awks Fox" */;
+			buildPhases = (
+				E030D2F11F1BF14D00E84F29 /* Sources */,
+				E030D2F21F1BF14D00E84F29 /* Frameworks */,
+				E030D2F31F1BF14D00E84F29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Awks Fox";
+			productName = "Awks Fox";
+			productReference = E030D2F51F1BF14D00E84F29 /* Awks Fox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E030D30E1F1BF14D00E84F29 /* Awks FoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E030D3261F1BF14D00E84F29 /* Build configuration list for PBXNativeTarget "Awks FoxTests" */;
+			buildPhases = (
+				E030D30B1F1BF14D00E84F29 /* Sources */,
+				E030D30C1F1BF14D00E84F29 /* Frameworks */,
+				E030D30D1F1BF14D00E84F29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E030D3111F1BF14D00E84F29 /* PBXTargetDependency */,
+			);
+			name = "Awks FoxTests";
+			productName = "Awks FoxTests";
+			productReference = E030D30F1F1BF14D00E84F29 /* Awks FoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E030D3191F1BF14D00E84F29 /* Awks FoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E030D3291F1BF14D00E84F29 /* Build configuration list for PBXNativeTarget "Awks FoxUITests" */;
+			buildPhases = (
+				E030D3161F1BF14D00E84F29 /* Sources */,
+				E030D3171F1BF14D00E84F29 /* Frameworks */,
+				E030D3181F1BF14D00E84F29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E030D31C1F1BF14D00E84F29 /* PBXTargetDependency */,
+			);
+			name = "Awks FoxUITests";
+			productName = "Awks FoxUITests";
+			productReference = E030D31A1F1BF14D00E84F29 /* Awks FoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E030D2ED1F1BF14D00E84F29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Philip Lee";
+				TargetAttributes = {
+					E030D2F41F1BF14D00E84F29 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = R3MBQ5ZNCG;
+						ProvisioningStyle = Automatic;
+					};
+					E030D30E1F1BF14D00E84F29 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = R3MBQ5ZNCG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E030D2F41F1BF14D00E84F29;
+					};
+					E030D3191F1BF14D00E84F29 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = R3MBQ5ZNCG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E030D2F41F1BF14D00E84F29;
+					};
+				};
+			};
+			buildConfigurationList = E030D2F01F1BF14D00E84F29 /* Build configuration list for PBXProject "Awks Fox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E030D2EC1F1BF14D00E84F29;
+			productRefGroup = E030D2F61F1BF14D00E84F29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E030D2F41F1BF14D00E84F29 /* Awks Fox */,
+				E030D30E1F1BF14D00E84F29 /* Awks FoxTests */,
+				E030D3191F1BF14D00E84F29 /* Awks FoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E030D2F31F1BF14D00E84F29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E030D3041F1BF14D00E84F29 /* Main.storyboard in Resources */,
+				E030D2FB1F1BF14D00E84F29 /* GameScene.sks in Resources */,
+				E030D3061F1BF14D00E84F29 /* Assets.xcassets in Resources */,
+				E030D3091F1BF14D00E84F29 /* LaunchScreen.storyboard in Resources */,
+				E030D2FD1F1BF14D00E84F29 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E030D30D1F1BF14D00E84F29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E030D3181F1BF14D00E84F29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E030D2F11F1BF14D00E84F29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E030D2FF1F1BF14D00E84F29 /* GameScene.swift in Sources */,
+				E030D3011F1BF14D00E84F29 /* GameViewController.swift in Sources */,
+				E030D2F91F1BF14D00E84F29 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E030D30B1F1BF14D00E84F29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E030D3141F1BF14D00E84F29 /* Awks_FoxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E030D3161F1BF14D00E84F29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E030D31F1F1BF14D00E84F29 /* Awks_FoxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E030D3111F1BF14D00E84F29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E030D2F41F1BF14D00E84F29 /* Awks Fox */;
+			targetProxy = E030D3101F1BF14D00E84F29 /* PBXContainerItemProxy */;
+		};
+		E030D31C1F1BF14D00E84F29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E030D2F41F1BF14D00E84F29 /* Awks Fox */;
+			targetProxy = E030D31B1F1BF14D00E84F29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E030D3021F1BF14D00E84F29 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E030D3031F1BF14D00E84F29 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E030D3071F1BF14D00E84F29 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E030D3081F1BF14D00E84F29 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E030D3211F1BF14D00E84F29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E030D3221F1BF14D00E84F29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E030D3241F1BF14D00E84F29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R3MBQ5ZNCG;
+				INFOPLIST_FILE = "Awks Fox/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "awxiety.Awks-Fox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E030D3251F1BF14D00E84F29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R3MBQ5ZNCG;
+				INFOPLIST_FILE = "Awks Fox/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "awxiety.Awks-Fox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E030D3271F1BF14D00E84F29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R3MBQ5ZNCG;
+				INFOPLIST_FILE = "Awks FoxTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "awxiety.Awks-FoxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Awks Fox.app/Awks Fox";
+			};
+			name = Debug;
+		};
+		E030D3281F1BF14D00E84F29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R3MBQ5ZNCG;
+				INFOPLIST_FILE = "Awks FoxTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "awxiety.Awks-FoxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Awks Fox.app/Awks Fox";
+			};
+			name = Release;
+		};
+		E030D32A1F1BF14D00E84F29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = R3MBQ5ZNCG;
+				INFOPLIST_FILE = "Awks FoxUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "awxiety.Awks-FoxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Awks Fox";
+			};
+			name = Debug;
+		};
+		E030D32B1F1BF14D00E84F29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = R3MBQ5ZNCG;
+				INFOPLIST_FILE = "Awks FoxUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "awxiety.Awks-FoxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Awks Fox";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E030D2F01F1BF14D00E84F29 /* Build configuration list for PBXProject "Awks Fox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E030D3211F1BF14D00E84F29 /* Debug */,
+				E030D3221F1BF14D00E84F29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E030D3231F1BF14D00E84F29 /* Build configuration list for PBXNativeTarget "Awks Fox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E030D3241F1BF14D00E84F29 /* Debug */,
+				E030D3251F1BF14D00E84F29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E030D3261F1BF14D00E84F29 /* Build configuration list for PBXNativeTarget "Awks FoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E030D3271F1BF14D00E84F29 /* Debug */,
+				E030D3281F1BF14D00E84F29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E030D3291F1BF14D00E84F29 /* Build configuration list for PBXNativeTarget "Awks FoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E030D32A1F1BF14D00E84F29 /* Debug */,
+				E030D32B1F1BF14D00E84F29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E030D2ED1F1BF14D00E84F29 /* Project object */;
+}
